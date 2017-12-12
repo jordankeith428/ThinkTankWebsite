@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Think Tank</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 53px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    #div1
+    {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href=""></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="core.html">Core Site</a></li>
+        <li><a href="ptc.html">PTC Site</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <img src="https://gradsoflife.org/wp-content/uploads/2017/04/YearUp_logo.jpg" style="width: 100%">
+    </div>
+    <div class="col-sm-8 text-left" id="div1"> 
+      <h1><strong>What is Year Up?</strong></h1>
+      <p>Year Up is a workforce training program that works to close the Opportunity Divide by providing urban young adults with the skills, experience, and support that will empower them to reach their potential through professional careers and higher education.</p>
+      <hr>
+      <h3><strong>How do we do that?</strong></h3>
+      <ol>
+        <li>Our program combines hands-on skills development, courses eligible for college credit, and corporate internships to prepare students for success in professional careers and higher education.</li><li> We align our training with corporate partner needs and market trends to ensure that the skills you learn will be in-demand. Learn valuable technical and professional skills, and gain work experience during internships at top companies.</li><li> In addition you will earn a stipend throughout the program (both while you train and during your internship) and complete courses eligible for college credit.</li></p>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <img src="https://gradsoflife.org/wp-content/uploads/2017/04/YearUp_logo.jpg" style="width: 100%">
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p> © </p>
+</footer>
+
+</body>
+</html>
